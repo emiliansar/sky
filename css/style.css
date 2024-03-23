@@ -245,12 +245,28 @@ body {
 
 .rental-winter__content {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(3, 410px);
 	gap: 30px;
 }
 
-.rental-winter__item {}
+.rental-winter__item {
+	position: relative;
+}
 
-.rental-winter__img {}
+.rental-winter__item--four {
+	grid-column: 1/3;
+	grid-row: 2;
+	justify-self: self-start;
+}
 
-.rental-summer__link {}
+.rental-winter__item--five {
+	grid-column: 2/-1;
+	grid-row: 2;
+	justify-self: self-end;
+}
+
+.rental-summer__link {
+	position: absolute;
+	right: 10px;
+	top: 176px;
+}

@@ -42,6 +42,17 @@ body {
 	color: #5B7DDE;
 }
 
+.section__item-title {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+
+.section__item-descr {
+	color: #454F5B;
+}
+
+
 .header {
 	background-color: #fff;
 	height: 80px;
@@ -226,16 +237,6 @@ body {
 	border-radius: 15px;
 }
 
-.rental__text-title {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 6px;
-}
-
-.rental__text-descr {
-	color: #454F5B;
-}
-
 .winter-rental {
 	padding: 120px 0;
 	background-color: #fff;
@@ -270,3 +271,54 @@ body {
 	right: 10px;
 	top: 176px;
 }
+
+.services {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.services__inner {
+	padding: 116px 0;
+	display: flex;
+	gap: 123px;
+}
+
+.services__title {
+	margin-bottom: 15px;
+}
+
+.section__descr {
+	color: #454F5B;
+}
+
+.services__wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+}
+
+.services__item {
+	position: relative;
+}
+
+.secrices__images {
+	display: flex;
+}
+
+.services__link {
+	position: absolute;
+	top: 176px;
+	right: 10px;
+}
+
+.services__text {
+	padding: 18px;
+	max-width: 382px;
+	background-color: #fff;
+	border-radius: 15px;
+}
+
+.section__item-title {}
+
+.section__item-descr {}

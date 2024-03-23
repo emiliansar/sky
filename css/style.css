@@ -17,12 +17,6 @@ li {
 	list-style: none;
 }
 
-.container {
-	max-width: 1310px;
-	margin: 0 auto;
-	padding: 0 10px;
-}
-
 body {
 	font-family: "Golos Text", sans-serif;
 	font-size: 16px;
@@ -30,6 +24,22 @@ body {
 	line-height: 1.2;
 	color: #161C24;
 	background-color: #F4F6F8;
+}
+
+.container {
+	max-width: 1310px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.section__title {
+	font-family: "Onest", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.section__title span {
+	color: #5B7DDE;
 }
 
 .header {
@@ -76,12 +86,12 @@ body {
 }
 
 .contacts {
+	font-family: "Lato", sans-serif;
 	display: flex;
 	gap: 8px;
 }
 
 .contacts__title {
-	font-family: "Lato", sans-serif;
 	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 2px;
@@ -174,3 +184,73 @@ body {
 .rent__sub-descr {
 	color: #454F5B;
 }
+
+.rental-summer {
+	padding: 120px 0 0;
+	background-color: #fff;
+	border-radius: 50px;
+}
+
+.rental-title {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 40px;
+}
+
+.rental-summer__content {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 30px;
+}
+
+.rental-summer__item {
+	position: relative;
+}
+
+.rental__images {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.rental-summer__link {
+	position: absolute;
+	right: 12px;
+	bottom: 93px;
+}
+
+.rental__text {
+	width: 100%;
+	padding: 18px;
+	background-color: #F4F6F8;
+	border-radius: 15px;
+}
+
+.rental__text-title {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+
+.rental__text-descr {
+	color: #454F5B;
+}
+
+.winter-rental {
+	padding: 120px 0;
+	background-color: #fff;
+	border-radius: 50px;
+	box-shadow: 0px -20px 40px -4px rgba(145, 158, 171, 0.12);
+}
+
+.rental-winter__content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+
+.rental-winter__item {}
+
+.rental-winter__img {}
+
+.rental-summer__link {}

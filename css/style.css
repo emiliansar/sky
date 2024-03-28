@@ -712,6 +712,56 @@ section.contacts {
 	.rental-summer__item {
 		justify-self: center;
 	}
+
+	.winter-rental {
+		padding: 60px 0;
+	}
+
+	.rental-winter__content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.rental-winter__item {
+		max-width: 410px;
+		margin: 0 auto;
+	}
+
+	.rental-winter__item img {
+		width: 100%;
+	}
+
+	.rental__text {
+		min-height: 102px;
+	}
+
+	.services__inner {
+		display: block;
+	}
+
+	.title {
+		margin-bottom: 50px;
+	}
+
+	.services__title {
+		margin-bottom: 20px;
+	}
+
+	.services__item {
+		max-width: 382px;
+	}
+
+	.services__item img {
+		max-width: 100%;
+	}
+
+	.services__item-one {
+		justify-self: self-end;
+	}
+
+	.services__item-three {
+		justify-self: self-end;
+	}
 }
 
 @media(max-width: 1120px) {
@@ -752,6 +802,11 @@ section.contacts {
 		background-color: transparent;
 		border-radius: 0;
 	}
+
+	.slider .slick-track {
+		gap: 20px;
+		justify-content: space-evenly;
+	}
 }
 
 @media(max-width: 890px) {
@@ -763,9 +818,7 @@ section.contacts {
 	.rent__main-descr {
 		font-size: 16px;
 	}
-}
 
-@media(max-width: 890px) {
 	.rent__sub-content {
 		flex-direction: column;
 		padding: 0 100px;
@@ -780,9 +833,7 @@ section.contacts {
 	.rental-summer__item img {
 		width: 100%;
 	}
-}
 
-@media(max-width: 720px) {
 	.rental-summer__link {
 		right: 2%;
 		top: 54%;
@@ -794,6 +845,19 @@ section.contacts {
 
 	.rental-summer {
 		padding: 60px 0;
+	}
+
+	.services__inner {
+		padding: 60px 0;
+	}
+
+	.services__wrapper {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.services__link {
+		top: 42%;
+		right: 2%;
 	}
 }
 
@@ -825,6 +889,15 @@ section.contacts {
 
 	.rental-summer__link {
 		top: 46%;
+	}
+
+	.news__top {
+		flex-direction: column;
+		margin-bottom: 50px;
+	}
+
+	.news__title {
+		margin-bottom: 15px;
 	}
 }
 

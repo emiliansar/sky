@@ -7,5 +7,19 @@ $(document).ready(function () {
 		infinite: false,
 		draggable: true,
 		swipe: true,
+		responsive: [
+			{
+				breakpoint: 1120,
+				settings: {
+					slidesToShow: 2,
+				}
+			},
+			{
+				breakpoint: 640,
+				settings: {
+					slidesToShow: 1,
+				}
+			},
+		],
 	});
 });

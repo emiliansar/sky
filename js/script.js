@@ -1,11 +1,6 @@
-$(document).ready(function () {
-	$('.slider').slick({
-		arrows: true,
-		appendArrows: $('.slick__arrows'),
-		dots: true,
-		slidesToShow: 3,
-		infinite: false,
-		draggable: true,
-		swipe: true,
-	});
+const menuBtn = document.querySelector(".burger__menu");
+const menu = document.querySelector('.menu');
+
+menuBtn.addEventListener('click', () => {
+	menu.classList.toggle('menu--active');
 });

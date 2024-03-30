@@ -316,6 +316,8 @@ body {
 
 .section__descr {
 	color: #454F5B;
+	font-size: 18px;
+	margin-bottom: 32px;
 }
 
 .services__wrapper {
@@ -514,11 +516,6 @@ body {
 .contacts__title-form {
 	font-size: 48px;
 	margin-bottom: 16px;
-}
-
-.section__descr {
-	font-size: 18px;
-	margin-bottom: 32px;
 }
 
 .form {
@@ -806,6 +803,17 @@ body {
 	.contacts__links {
 		max-width: 100%;
 	}
+
+	.link__list {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 30px;
+		padding: 20px 100px;
+	}
+
+	.link__item {
+		justify-self: center;
+	}
 }
 
 @media(max-width: 1120px) {
@@ -872,6 +880,15 @@ body {
 	.rent__sub-content {
 		flex-direction: column;
 		padding: 0 100px;
+	}
+
+	.sports-rental {
+		padding: 60px 30px;
+	}
+
+	.link__list {
+		padding: 20px 50px;
+		grid-template-columns: repeat(2, 1fr);
 	}
 }
 
@@ -979,6 +996,19 @@ body {
 	.blog__item-three {
 		justify-self: auto;
 	}
+
+	.sports-rental__text {
+		padding: 30px;
+	}
+
+	.section__descr {
+		font-size: 15px;
+	}
+
+	.link__list {
+		padding: 20px;
+		gap: 20px;
+	}
 }
 
 @media(max-width: 560px) {
@@ -1000,6 +1030,10 @@ body {
 
 	.rental-summer__link {
 		top: 39%;
+	}
+
+	.link__list {
+		grid-template-columns: repeat(1, 1fr);
 	}
 }
 
@@ -1036,5 +1070,35 @@ body {
 
 	.section__title {
 		font-size: 24px;
+	}
+
+	.sports-rental {
+		padding: 30px 15px;
+	}
+
+	.sports-rental__text {
+		padding: 20px;
+	}
+
+	.sports-rental__descr {
+		font-size: 13px;
+	}
+
+	.footer {
+		padding: 30px 0 18px;
+	}
+
+	.footer__nav {
+		/* margin-bottom: 10px; */
+	}
+
+	.link__list {
+		padding: 20px 0;
+	}
+}
+
+@media(max-width: 320px) {
+	.sports-rental {
+		padding: 20px 10px;
 	}
 }

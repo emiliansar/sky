@@ -640,6 +640,10 @@ body {
 	margin-bottom: 18px;
 }
 
+.footer__logo-block {
+	text-align: left !important;
+}
+
 .footer__contacts {
 	display: flex;
 	align-items: center;
@@ -1039,7 +1043,7 @@ body {
 
 @media(max-width: 440px) {
 	.menu {
-		width: 107%;
+		width: 100vw;
 		height: 100vh;
 	}
 

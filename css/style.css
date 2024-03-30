@@ -804,6 +804,16 @@ body {
 		flex-direction: column;
 	}
 
+	.contacts__text {
+		text-align: center;
+	}
+
+	.contacts__text,
+	.contacts__text .form,
+	.contacts__text .checkbox {
+		justify-content: center;
+	}
+
 	.contacts__links {
 		max-width: 100%;
 	}
